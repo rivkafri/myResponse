@@ -1,0 +1,85 @@
+@media (min-width: 240px) { body {font-size:0.8rem;} }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    font-weight: 100;
+    background-color:#f4ede4!important; 
+} 
+#index header{
+    color: white;
+    background-size: 100%;
+}
+#logo{
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: 700;
+    margin-left: 8%;
+}
+#menu-header ul{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    margin-right: 30%;
+    margin-left: 8%;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+#menu-header{
+    position: fixed;
+    display: flex;
+    width: 100%; 
+    background-color: #541554;
+    /* margin-top: -23px; */
+    height: 85px;
+    align-items: center;
+} 
+ #menu-header li{
+    margin-left: 0;
+    margin-right: 0;
+    /* padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px; */
+}
+#menu-header a:hover{
+    border-bottom: solid white 2px;
+}  
+#menu-header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+} 
+#content-text{
+    color: white;
+    margin-left: 8%;
+}
+
+#content{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: #541554;
+    margin-top: 10vh;
+    height: 55vh;
+    align-items: center;
+}
+
+#content-text span{
+    color: rgba(255, 208, 0, 0.973);
+}
+
+.second-part{
+    background-color: antiquewhite;
+}
+
+.second-part #second-part-title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
